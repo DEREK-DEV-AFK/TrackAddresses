@@ -1,8 +1,13 @@
 const fs = require('fs');
 
-function writeFile(data){
+/**
+ * 
+ * @param {*} data data you want to write in file
+ * @param {string} fileName file name to save data. It must exist in main directory 
+ */
+function writeFile(data,fileName){
     let strJson = JSON.stringify(data)
-    fs.writeFile('./data/data.json',strJson,(err)=> {
+    fs.writeFile(`./data/${fileName}`,strJson,(err)=> {
         if(err){
             console.log("ERROR : ",err)
         }else {
