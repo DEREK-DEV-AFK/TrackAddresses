@@ -1,0 +1,129 @@
+{
+    "application-transaction": {
+      "accounts": [
+        "3LAEDIDUUM7W5TGW7M2WSDSLRQ3WPQ2HO7YCUTX5VAPYZ3OFS2XSUPCIOQ"
+      ],
+      "application-args": [
+        "c3dhcA==",
+        "Zml4ZWQtaW5wdXQ=",
+        "AAAAnciqbKQ="
+      ],
+      "application-id": 1002541853,
+      "foreign-apps": [],
+      "foreign-assets": [
+        283820866,
+        226701642
+      ],
+      "global-state-schema": {
+        "num-byte-slice": 0,
+        "num-uint": 0
+      },
+      "local-state-schema": {
+        "num-byte-slice": 0,
+        "num-uint": 0
+      },
+      "on-completion": "noop"
+    },
+    "close-rewards": 0,
+    "closing-amount": 0,
+    "confirmed-round": 27020102,
+    "fee": 2000,
+    "first-valid": 27020100,
+    "genesis-hash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+    "group": "ZPHPs3dRBD5BLGrkLsLn5vJWaQIE7JvNnukGU+BLlrg=",
+    "id": "FJ7L63KIJYP3VTHJCXKP35D6EGLS52I7JIPVV7GM7GTIZAOEKDJQ",
+    "inner-txns": [
+      {
+        "asset-transfer-transaction": {
+          "amount": 677676477604,
+          "asset-id": 283820866,
+          "close-amount": 0,
+          "receiver": "J4BJWP67LHXT7LQTWZYWJGNSB25VZMO6SFZPKBSY7HJUCXJIFVE2PEOTVA"
+        },
+        "close-rewards": 0,
+        "closing-amount": 0,
+        "confirmed-round": 27020102,
+        "fee": 0,
+        "first-valid": 27020100,
+        "intra-round-offset": 233,
+        "last-valid": 27020104,
+        "receiver-rewards": 0,
+        "round-time": 1676532538,
+        "sender": "3LAEDIDUUM7W5TGW7M2WSDSLRQ3WPQ2HO7YCUTX5VAPYZ3OFS2XSUPCIOQ",
+        "sender-rewards": 0,
+        "tx-type": "axfer"
+      }
+    ],
+    "intra-round-offset": 233,
+    "last-valid": 27020104,
+    "local-state-delta": [
+      {
+        "address": "3LAEDIDUUM7W5TGW7M2WSDSLRQ3WPQ2HO7YCUTX5VAPYZ3OFS2XSUPCIOQ",
+        "delta": [
+          {
+            "key": "YXNzZXRfMV9jdW11bGF0aXZlX3ByaWNl",
+            "value": {
+              "action": 1,
+              "bytes": "Rzz6QIX4WLvubw==",
+              "uint": 0
+            }
+          },
+          {
+            "key": "YXNzZXRfMV9yZXNlcnZlcw==",
+            "value": {
+              "action": 2,
+              "uint": 101611515215552
+            }
+          },
+          {
+            "key": "YXNzZXRfMl9jdW11bGF0aXZlX3ByaWNl",
+            "value": {
+              "action": 1,
+              "bytes": "KiMJMTzjmrtkaij7",
+              "uint": 0
+            }
+          },
+          {
+            "key": "YXNzZXRfMl9wcm90b2NvbF9mZWVz",
+            "value": {
+              "action": 2,
+              "uint": 381506861
+            }
+          },
+          {
+            "key": "YXNzZXRfMl9yZXNlcnZlcw==",
+            "value": {
+              "action": 2,
+              "uint": 412199656853
+            }
+          },
+          {
+            "key": "Y3VtdWxhdGl2ZV9wcmljZV91cGRhdGVfdGltZXN0YW1w",
+            "value": {
+              "action": 2,
+              "uint": 1676532534
+            }
+          }
+        ]
+      }
+    ],
+    "logs": [
+      "aW5wdXRfYXNzZXRfaWQgJWkAAAAADYMxSg==",
+      "aW5wdXRfYW1vdW50ICVpAAAAAKNCY70=",
+      "c3dhcF9hbW91bnQgJWkAAAAAosUBpg==",
+      "Y2hhbmdlICVpAAAAAAAAAAA=",
+      "b3V0cHV0X2Fzc2V0X2lkICVpAAAAABDqw0I=",
+      "b3V0cHV0X2Ftb3VudCAlaQAAAJ3Iqmyk",
+      "cG9vbGVyc19mZWVfYW1vdW50ICVpAAAAAABofGk=",
+      "cHJvdG9jb2xfZmVlX2Ftb3VudCAlaQAAAAAAFOWu",
+      "dG90YWxfZmVlX2Ftb3VudCAlaQAAAAAAfWIX"
+    ],
+    "receiver-rewards": 0,
+    "round-time": 1676532538,
+    "sender": "J4BJWP67LHXT7LQTWZYWJGNSB25VZMO6SFZPKBSY7HJUCXJIFVE2PEOTVA",
+    "sender-rewards": 0,
+    "signature": {
+      "sig": "giYEypdapx2J4ShDMA3Qtp+/6NJdXUr9mFFmEQ5CAiduz+PeFcCAzRLlMOKAuo/+JNeD7Zdfzp9bCNUGUH4IAQ=="
+    },
+    "tx-type": "appl"
+  }
