@@ -125,13 +125,18 @@ function checkWhiteListUserOrPool(address){
  * @returns empty object if not found or whitelist user infos
  */
 function loopAndCheckAddress(arrayOfAddresses){
+    let finalResult = [];
+    console.log("first",finalResult.length)
     for(let i = 0 ; i < arrayOfAddresses.length ; i++){
         let data = checkWhiteListUserOrPool(arrayOfAddresses[i])
+        console.log("data : ", i, " ", data)
         if(data.hasFound){
-            return data.data
+            finalResult.push(data.data) 
+            console.log("second",finalResult.length)
         }
     }
-    return {}
+    console.log("third",finalResult.length)
+    return finalResult
 }
 
 /**
