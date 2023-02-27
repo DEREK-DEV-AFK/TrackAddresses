@@ -1,0 +1,23 @@
+{
+  "name": "backtrackaddress",
+  "version": "1.0.0",
+  "description": "This project includes scripts which tracks address from whom to whom for specific token. And also includes back tracking",
+  "main": "backtrack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEREK-DEV-AFK/TrackAddresses.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DEREK-DEV-AFK/TrackAddresses/issues"
+  },
+  "homepage": "https://github.com/DEREK-DEV-AFK/TrackAddresses#readme",
+  "dependencies": {
+    "algosdk": "^2.1.0"
+  }
+}
